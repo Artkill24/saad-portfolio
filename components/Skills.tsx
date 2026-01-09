@@ -44,7 +44,6 @@ export default function Skills() {
     { name: 'HackerRank Python', icon: '🐍' },
     { name: 'TryHackMe - Terminaled', icon: '💻' },
     { name: 'TryHackMe - Web Fund', icon: '🌐' },
-    { name: 'HACCP Food Safety', icon: '🍽️' },
     { name: 'Forklift Operator', icon: '🚜' },
     { name: 'Industrial Molding', icon: '🏭' }
   ];
