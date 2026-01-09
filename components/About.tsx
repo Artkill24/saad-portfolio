@@ -24,18 +24,21 @@ export default function About() {
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
                   Originally from Morocco, I have called Italy home for over 15 years. 
-                  My journey has taken me through diverse industries from logistics at Amazon 
-                  and retail at Zara, to manufacturing and security roles across Italy.
+                  My journey has taken me through diverse industries including logistics, 
+                  retail, manufacturing, and security, giving me a unique perspective on 
+                  how technology can transform traditional businesses.
                 </p>
                 <p>
-                  But my true passion has always been technology. While working full-time, 
-                  I have been constantly learning and building, transforming ideas into reality 
-                  through code and innovation.
+                  Throughout these experiences, my true passion has always been technology. 
+                  I dedicated my free time to learning and building, constantly exploring 
+                  new technologies and frameworks, transforming ideas into reality through 
+                  code and innovation.
                 </p>
                 <p>
-                  Today, I specialize in creating AI-powered automation systems, blockchain 
-                  applications, and cybersecurity solutions. Each project is a step toward 
-                  building sustainable, scalable digital products that solve real problems.
+                  Today, I focus on creating AI-powered automation systems, blockchain 
+                  applications, and cybersecurity solutions. Each project represents not 
+                  just a technical challenge, but an opportunity to build sustainable, 
+                  scalable digital products that solve real-world problems.
                 </p>
               </div>
             </div>
@@ -49,42 +52,12 @@ export default function About() {
                 I believe in continuous learning and rapid prototyping. Every challenge is 
                 an opportunity to learn something new. My approach combines technical 
                 excellence with entrepreneurial thinking. I do not just build projects, 
-                I create solutions that have the potential to generate value.
+                I create solutions that have the potential to generate value and make an impact.
               </p>
             </div>
           </div>
 
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-                <span className="text-green-400">💼</span>
-                Current Work
-              </h3>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 animate-pulse" />
-                  <div>
-                    <p className="text-white font-semibold">Security Officer</p>
-                    <p className="text-gray-400 text-sm">REDEVIL ITALY SRL</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 animate-pulse" />
-                  <div>
-                    <p className="text-white font-semibold">Quality Control & Production</p>
-                    <p className="text-gray-400 text-sm">Tubo Globale</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-green-400 mt-2 animate-pulse" />
-                  <div>
-                    <p className="text-white font-semibold">Full-Stack Developer</p>
-                    <p className="text-gray-400 text-sm">Personal Projects & SaaS</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-xl p-8">
               <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                 <span className="text-blue-400">🗣️</span>
@@ -144,6 +117,27 @@ export default function About() {
                     {interest}
                   </span>
                 ))}
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-900/20 to-black border border-green-500/30 rounded-xl p-8">
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <span className="text-green-400">💼</span>
+                Focus
+              </h3>
+              <div className="space-y-3 text-gray-400">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2" />
+                  <p>Building innovative AI-powered automation solutions</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-purple-400 mt-2" />
+                  <p>Developing blockchain applications and smart contracts</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-green-400 mt-2" />
+                  <p>Creating cybersecurity tools and systems</p>
+                </div>
               </div>
             </div>
           </div>
